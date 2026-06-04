@@ -1,0 +1,19 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1780603439
+icon.svg::CompressedTexture2D/CompressedTexture2D::2726989045275122644::1780603213::1780603217::1::::<><><>0<>0<>403899e526247d6cfb7790f2c83eef85<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+::res://Assets/::1780604251
+::res://Assets/House/::1780603386
+::res://Assets/House/Floorplan/::1780603305
+big walls.png::CompressedTexture2D/CompressedTexture2D::2198080425952304149::1780603305::1780603305::1::::<><><>0<>0<>4773af643c4b0fdd41db364baafae4ef<>res://.godot/imported/big walls.png-95b170ccd7d4a062eaa81d48164f0aa0.ctex::
+floor.png::CompressedTexture2D/CompressedTexture2D::3103803548884827618::1780603305::1780603305::1::::<><><>0<>0<>45cf0b0357e59b654cc8f79c2ff16454<>res://.godot/imported/floor.png-9fd82a141b5e6057b2745a464ea49812.ctex::
+walls.png::CompressedTexture2D/CompressedTexture2D::9199264332731735545::1780603305::1780603305::1::::<><><>0<>0<>e383e2c51ea310030ee72485dd1a0e0c<>res://.godot/imported/walls.png-995ca34444780d167f420f64dcba8d6e.ctex::
+::res://Assets/House/HouseObjects/::1780603810
+bed.png::CompressedTexture2D::7202526371797478785::1780603810::1780603810::1::::<><><>0<>0<>7750fa768f6d0e382d639f68ce83afc8<>res://.godot/imported/bed.png-59b26340d06151190a037a9cf4158f3d.ctex::
+::res://Assets/Player/::1780604259
+char.png::CompressedTexture2D::4439649105925157030::1780604259::1780604259::1::::<><><>0<>0<>e69db4cd7c1b9db06d43d46b6c4854e1<>res://.godot/imported/char.png-987601cfb85257868299e0031eb7739f.ctex::
+::res://Scenes/::1780604228
+house.tscn::PackedScene/PackedScene::4366763970165172627::1780603337::0::1::::<><><>0<>0<><>::
+main.tscn::PackedScene/PackedScene::5650771906186656457::1780603348::0::1::::<><><>0<>0<><>::uid://b3hj72cq6lc3l::::res://Scenes/house.tscn
+bed.tscn::PackedScene::1542864494007123745::1780603859::0::1::::<><><>0<>0<><>::uid://dau7s667itcmj::::res://Assets/House/HouseObjects/bed.png
+player.tscn::PackedScene::7319248120687805172::1780604228::0::1::::<><><>0<>0<><>::
+::res://Scripts/::1780603245
