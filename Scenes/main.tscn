@@ -1,33 +1,11 @@
-[gd_scene load_steps=8 format=3 uid="uid://cmrjnggosh5q0"]
+[gd_scene load_steps=3 format=3 uid="uid://cmrjnggosh5q0"]
 
-[ext_resource type="PackedScene" uid="uid://dcjq7g7pa8hou" path="res://Scenes/player.tscn" id="1_21xkr"]
 [ext_resource type="PackedScene" uid="uid://b3hj72cq6lc3l" path="res://Scenes/house.tscn" id="1_jjgbg"]
-[ext_resource type="Texture2D" uid="uid://bkhrgq1h156hi" path="res://Assets/House/Floorplan/floor.png" id="3_6bp64"]
-[ext_resource type="Texture2D" uid="uid://d4cgslxymqqbx" path="res://Assets/House/Floorplan/walls.png" id="4_344ge"]
-[ext_resource type="Texture2D" uid="uid://6k1cfmx0drf6" path="res://Assets/House/Floorplan/big walls.png" id="5_ynf5e"]
-[ext_resource type="PackedScene" uid="uid://v8m0uidborlh" path="res://Scenes/bed.tscn" id="6_hptm8"]
-[ext_resource type="Script" uid="uid://eo8jew70l124" path="res://Scripts/player.gd" id="7_6bp64"]
+[ext_resource type="PackedScene" uid="uid://cmgrs5dnh50pb" path="res://Scenes/battle_sleeping_or_waking_up.tscn" id="2_bo1nx"]
 
 [node name="Main" type="Node2D"]
 
 [node name="House" parent="." instance=ExtResource("1_jjgbg")]
 position = Vector2(1, 0)
 
-[node name="Floor" type="Sprite2D" parent="House"]
-position = Vector2(973.5, 588)
-texture = ExtResource("3_6bp64")
-
-[node name="Floorplan" type="Sprite2D" parent="House"]
-position = Vector2(966.5, 541)
-texture = ExtResource("4_344ge")
-
-[node name="BigWalls" type="Sprite2D" parent="House"]
-position = Vector2(969.5, 468)
-texture = ExtResource("5_ynf5e")
-
-[node name="Bed" parent="House" instance=ExtResource("6_hptm8")]
-position = Vector2(489, 773)
-
-[node name="Player" parent="House" instance=ExtResource("1_21xkr")]
-position = Vector2(730, 749)
-script = ExtResource("7_6bp64")
+[node name="Battle_SleepingOrWakingUp" parent="." instance=ExtResource("2_bo1nx")]
