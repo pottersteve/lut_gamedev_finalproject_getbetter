@@ -22,7 +22,7 @@ func _process(delta: float) -> void:
 
 
 func change_scene():
-	pass
+	get_tree().change_scene_to_file("res://Scenes/battle_sleeping_or_waking_up.tscn")
 
 
 func _on_pressed() -> void:

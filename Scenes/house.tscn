@@ -1,10 +1,9 @@
-[gd_scene load_steps=26 format=3 uid="uid://b3hj72cq6lc3l"]
+[gd_scene load_steps=25 format=3 uid="uid://b3hj72cq6lc3l"]
 
 [ext_resource type="Texture2D" uid="uid://bkhrgq1h156hi" path="res://Assets/House/Floorplan/floor.png" id="1_4dwi4"]
 [ext_resource type="Script" uid="uid://du6s0f54647da" path="res://Scripts/sleep_or_wake_up_btn.gd" id="2_a7v5j"]
 [ext_resource type="Script" uid="uid://bnb6tji8fwskl" path="res://Scripts/bedroom.gd" id="3_36e0i"]
 [ext_resource type="PackedScene" uid="uid://dcjq7g7pa8hou" path="res://Scenes/player.tscn" id="3_a7v5j"]
-[ext_resource type="Script" uid="uid://eo8jew70l124" path="res://Scripts/player.gd" id="4_36e0i"]
 [ext_resource type="Texture2D" uid="uid://cd1iaj7utly5t" path="res://Assets/House/Floorplan/Walls/wall_top.png" id="5_78jbw"]
 [ext_resource type="Texture2D" uid="uid://bdrjfi51iuneo" path="res://Assets/House/Floorplan/Walls/wall_ofice_right.png" id="6_218mn"]
 [ext_resource type="Texture2D" uid="uid://clg2v42hrxjyr" path="res://Assets/House/Floorplan/Walls/wall_office_left.png" id="7_cx658"]
@@ -201,7 +200,6 @@ shape = SubResource("RectangleShape2D_gslo5")
 position = Vector2(730, 749)
 collision_mask = 2
 motion_mode = 1
-script = ExtResource("4_36e0i")
 
 [connection signal="pressed" from="Rooms/SleepOrWakeUpBtn" to="Rooms/SleepOrWakeUpBtn" method="_on_pressed"]
 [connection signal="body_entered" from="Rooms/Bedroom" to="Rooms/Bedroom" method="_on_body_entered"]

@@ -1,0 +1,10 @@
+res://Scenes/enemy_sheep.tscn
+res://Scenes/battle_sleeping_or_waking_up.tscn
+res://Scripts/enemy_spawn_point.gd
+res://Scripts/enemy_sheep.gd
+res://Scenes/main.tscn
+res://Scenes/player.tscn
+res://Scenes/house.tscn
+res://Scripts/camera_2d_fighting.gd
+res://Scripts/battle_sleeping_or_waking_up.gd
+res://Scripts/sleep_or_wake_up_btn.gd

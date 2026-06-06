@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://cmrjnggosh5q0"]
 
 [ext_resource type="PackedScene" uid="uid://b3hj72cq6lc3l" path="res://Scenes/house.tscn" id="1_jjgbg"]
-[ext_resource type="PackedScene" uid="uid://cmgrs5dnh50pb" path="res://Scenes/battle_sleeping_or_waking_up.tscn" id="2_bo1nx"]
+[ext_resource type="PackedScene" uid="uid://c36olduf41kku" path="res://Scenes/battle_sleeping_or_waking_up.tscn" id="2_bo1nx"]
 
 [node name="Main" type="Node2D"]
 

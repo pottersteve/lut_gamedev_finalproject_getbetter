@@ -1,12 +1,18 @@
-[gd_scene load_steps=2 format=3 uid="uid://dcjq7g7pa8hou"]
+[gd_scene load_steps=4 format=3 uid="uid://dcjq7g7pa8hou"]
 
+[ext_resource type="Script" uid="uid://eo8jew70l124" path="res://Scripts/player.gd" id="1_cvnsp"]
 [ext_resource type="Texture2D" uid="uid://b4iumwglybrhm" path="res://Assets/Player/char.png" id="1_v0iea"]
+[ext_resource type="Script" uid="uid://cmm01hweb1v35" path="res://Scripts/camera_2d_fighting.gd" id="3_6t5aa"]
 
 [node name="Player" type="CharacterBody2D"]
+z_index = 1
+script = ExtResource("1_cvnsp")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture = ExtResource("1_v0iea")
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
-visible = false
 polygon = PackedVector2Array(6, -54, -17, -54, -23.8, -47, -24, -27, -22.8, -16, -24, -11.8, -24, 2.5, -20.7, 5, -16.1, 5, -10.2, -2, -21, 39.7, -21, 47.8, -15, 53.8, 23.2, 54, 24, 52.4, 24, 22.6, 12.8, -1.8, 13.6, -3, 14, -1.8, 16, -0.700001, 21.5, -4, 24, -4, 24, -6, 21.6, -18, 23, -28.8, 23, -32.6, 15, -44.7, 15, -47)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+script = ExtResource("3_6t5aa")
